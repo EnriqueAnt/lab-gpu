@@ -1,0 +1,11 @@
+Time taken by reduction operation using a function: 2.68 ms ± 406 ns per loop (mean ± std. dev. of 2 runs, 100 loops each)
+And the result of the sum of numbers in the range [0, value) is: 25024.688486671832
+
+Time taken by reduction operation using numpy.sum(): 7.96 µs ± 1.31 ns per loop (mean ± std. dev. of 2 runs, 100,000 loops each)
+Now, the result using numpy.sum(): 25024.688486671777 
+ 
+Time taken by reduction operation using numpy.ndarray.sum(): 7.13 µs ± 7.07 ns per loop (mean ± std. dev. of 2 runs, 100,000 loops each)
+Now, the result using numpy.ndarray.sum(): 25024.688486671777
+Tiempo de ejecución con cp.sum (time.time()): 0.379124 segundos
+Resultado de la suma con cp.sum(): 24999.403058891185
+Tiempo de ejecución con cp.sum (%timeit): 6.41 µs ± 35.5 ns per loop (mean ± std. dev. of 2 runs, 100,000 loops each)
